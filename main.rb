@@ -47,4 +47,3 @@ loop do
     puts "1-3を入力してください"
  end
 end
-
