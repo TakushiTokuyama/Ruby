@@ -6,7 +6,7 @@ print "ID:"
 newId = gets.to_i
 print "PASS:"
 newPass = gets.to_i
-4\
+
 puts "ログインを行います"
 puts "Id:#{newId}  Pass:#{newPass} 入力してください"
 
