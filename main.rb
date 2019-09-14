@@ -3,17 +3,17 @@ require "./bread"
 puts "新規登録を行います"
 
 print "ID:"
-newId = gets.to_i
+    newId = gets.to_i
 print "PASS:"
-newPass = gets.to_i
-4\
+    newPass = gets.to_i
+
 puts "ログインを行います"
 puts "Id:#{newId}  Pass:#{newPass} 入力してください"
 
 print "ID:"
-id = gets.to_i
+    id = gets.to_i
 print "PASS:"
-pass = gets.to_i
+    pass = gets.to_i
 
 if id == newId && pass == newPass
     puts "ログイン成功"
